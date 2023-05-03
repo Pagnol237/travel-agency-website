@@ -1,0 +1,53 @@
+@import'./main.scss';
+
+#sercices_main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    padding: 60px 110px 60px 110px;
+}
+.photo{
+    width: 100%;
+    height: auto;
+}
+.grille_box{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap:50px;
+    margin-top: 30px;
+}
+.title{
+    color: $color_text;
+    font-family: $font1;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.title2{
+    color:$color_blue;
+    width: 100%;
+    font-family: $font1;
+    font-size: 20px;
+    font-weight: 700;
+}
+.texte{
+    color: $color_text;
+    margin-top: 15px;
+    font-family: $font2;
+    text-align: justify;
+}
+
+@media screen and (max-width:900px){
+    #sercices_main{
+
+        padding: 60px 30px 60px 30px;
+
+    }
+    .title2{
+        text-align: center;
+    }
+    .title{
+        text-align: center;
+    }
+
+}

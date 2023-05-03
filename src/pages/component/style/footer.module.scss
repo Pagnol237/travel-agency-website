@@ -1,0 +1,61 @@
+@import'./main.scss';
+
+#footer_main{
+    width: 100%;
+    height: auto;
+    background-color: rgb(49, 49, 49);
+}
+.box_container{
+    width: 100%;
+    padding: 60px 110px 20px 110px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap:50px;
+}
+.footer_title{
+    color: rgb(194, 193, 193);
+    font-family: $font1;
+    font-size: 18px;
+}
+.footer_text{
+    color: white;
+    font-family: $font2;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.lien{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+
+.icon{
+    font-size: 20px;
+    margin-right: 15px;
+}
+.footer2{
+    width: 100%;
+    height: auto;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media screen and (max-width:900px){
+    .box_container{
+        width: 100%;
+        padding: 60px 30px 20px 30px;
+        text-align: center;
+    }
+    .footer_text{
+        display: flex;
+        justify-content: center;
+    }
+    .icon{
+        margin-right: 5px;
+    }
+
+}

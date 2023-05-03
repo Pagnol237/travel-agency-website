@@ -1,0 +1,54 @@
+@import'main.scss';
+
+#about_main{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 60px 110px 60px 110px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap:50px;
+}
+
+.box2{
+    background-color: rgb(255, 255, 255);
+}
+.box1{
+    background-color: rgb(255, 255, 255);
+}
+.imageSize{
+    width: 100%;
+    height: auto;
+}
+
+.title1{
+    color: #ffffff;
+    width: 100%;
+    font-family: $font2;
+    font-size: 25px;
+}
+
+.title2{
+    color:$color_blue;
+    width: 100%;
+    font-family: $font1;
+    font-size: 20px;
+    font-weight: 700;
+}
+.texte{
+    color: $color_text;
+    margin-top: 30px;
+    font-size: 17px;
+    text-align: justify;
+    font-family: $font2;
+    font-weight: 100;
+}
+
+@media screen and (max-width:900px){
+    #about_main{
+        padding: 60px 30px 60px 30px;
+    }
+    .title2{
+        text-align: center;
+    }
+}
