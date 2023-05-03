@@ -10,7 +10,7 @@ export default function Banner(){
           <div className={styles.title1}>Bienvenue chez</div>
           <div className={styles.title2} translate="no">ALL IN ONE AGENCY</div>
           <div className={styles.texte}>Votre entreprise citoyenne fiable pour tous vos projet de voyages d'etude
-            voyage d'afaire et touristique, a travers le monde. Vous satisfaire est notre seul priorite.
+            voyage d'afaire et touristique, a travers le monde. Vous satisfaire est notre seul priorite. tanks
           </div>
           <div className={styles.btn}>
             Contactez nous
