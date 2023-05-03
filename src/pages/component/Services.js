@@ -2,7 +2,7 @@ import styles from './style/services.module.scss'
 import { useState } from 'react'
 import Image from 'next/image'
 import Picture1 from './images/service1.png'
-import Picture2 from "../component/images/services2.PNG"
+import Picture2 from "../component/images/services2.png"
 import Picture3 from './images/service4.png'
 import Picture4 from './images/service3.png'
 
