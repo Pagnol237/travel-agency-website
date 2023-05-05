@@ -66,6 +66,9 @@
     border-radius: 25px;
     cursor: pointer;
 }
+.btn:hover{
+    box-shadow: 5px 5px 8px #eaeaeb;
+}
 
 @media screen and (max-width:900px){
     .block1{
